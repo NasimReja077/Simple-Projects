@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Survey Form</title>
+</head>
+<body>
+     <div class="container_box">
+          <div class="apply_box">
+               <h1><b>Job Application</b><spam class="title_small">(web)</spam></h1>
+               <form>
+                    <div class="form_container">
+                         <div class="form_control">
+                              <!-- First name -->
+                              <label for ="First name">First Name</label>
+                              <input id="First name" name="First name" placeholder="Enter your name">
+                         </div>
+
+                         <div class="form_control">
+                              <!-- last name -->
+                              <label for ="Last name">First Name</label>
+                              <input id="Last name" name="Last name" placeholder="Enter your Last name">
+                         </div>
+
+                         <input class="form_control">
+                         <label>Are you -- </label>
+                              <!--Radeo butten-->
+                              <label for ="recommed-1">
+                                   <input type="radio" id="recommed-1" name="recommed">Collag Student</input>
+                              </label>
+
+                              <label for ="recommed-2">
+                                   <input type="radio" id="recommed-2" name="recommed">School Student</input>
+                              </label>
+
+                              <label for ="recommed-3">
+                                   <input type="radio" id="recommed-3" name="recommed">Intan Student</input>
+                              </label>
+
+                              <label for ="recommed-4">
+                                   <input type="radio" id="recommed-4" name="recommed">Master degreri Student</input>
+                              </label>
+
+                              <label for ="recommed-5">
+                                   <input type="radio" id="recommed-5" name="recommed">5 year's Expareans Student</input>
+                              </label>
+                         </div>
+
+                         <div class="form_control">
+                              <!-- Email -->
+                              <label for ="Email">Email:</label>
+                              <input id="Email" name="Email" placeholder="Enter your Email Address">
+                         </div>
+
+                         <div class="form_control">
+                              <!--Select Job-roll-->
+                              <label for ="Job-roll--">Job_Role:</label>
+                              <select name="job_role" id="job_role">
+                                   <option value="">Choose your Job</option>
+                                   <option value="Frontend">Frontend Developer</option>
+                                   <option value="Backend">Backend Developer</option>
+                                   <option value="Full Stack">Full Stack Developer</option>
+                                   <option value="UI UX">UI UX Designer</option>
+                                   <option value="VR">VR Designer</option>
+                              </select>
+                         </div>
+
+                         <div class="form_control">
+                              <!-- Address text area -->
+                              <label for ="address">Address:</label>
+                              <textarea id="address" name="address" row="4" cols="50" placeholder="Enter Address"></textarea>
+                         </div>
+
+                         <div class="form_control">
+                              <!-- City -->
+                              <label for ="city">City:</label>
+                              <input id="city" name="city" placeholder="Enter your City">
+                         </div>
+
+                         <div class="form_control">
+                              <!-- Pincode-->
+                              <label for ="pincode">pincode:</label>
+                              <input type="number" id="pincode" name="pincode" placeholder="Enter your Pin number">
+                         </div>
+
+                         <div class="form_control">
+                              <!-- Date&Time-->
+                              <label for ="date">Date:</label>
+                              <input value="2022-01-10" type="date" id="date" name="date">
+                         </div>
+
+                         <div class="form_control">
+                              <!--Fill uplode-->
+                              <label for="upload"> Upload Your CV </label>
+                              <input type="file" id="upload" name="upload" />
+                         </div>
+
+                         <!-- <div class="button_container">
+                              <button type="submit">Apply Now</button>
+                         </div> -->
+                    </div>
+
+                    <div class="chackbox">
+                          <label for="inp-1">
+                              <input type="checkbox" name="inp"><small><b>Are you check for all things</b></small></input></label>
+                    </div>
+
+                    <div class="button_container">
+                         <button type="submit">Apply Now</button>
+                    </div>
+               </form>
+          </div>
+     </div>
+</body>
+</html>

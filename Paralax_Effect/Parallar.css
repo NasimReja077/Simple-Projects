@@ -1,0 +1,135 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+/*all imge*/
+.Parallax-1 , .Parallax-2,.Parallax-3,.Parallax-4,.Parallax-5{
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* img1 */
+.Parallax-1{
+     background-image: url(./image1.png);
+     min-height: 100%;
+}
+/*img2*/
+.Parallax-2{
+  background-image: url(./nacher.jpg);
+  min-height: 100%;
+}
+
+.Parallax-3{
+  background-image: url(./see\ life.jpg);
+  min-height: 100%;
+}
+
+.Parallax-4{
+  background-image: url(./hiti.jpg);
+  min-height: 100%;
+}
+
+.Parallax-5{
+  background-image: url(./human.jpg);
+  min-height: 100%;
+}
+
+/* Midel-img-text box*/
+.para-text{
+     position: absolute;
+     text-align: center;
+     top: 50%;
+     width: 100%;
+}
+.text{
+     background-color: black;
+     font-size: 35px;
+     color:aqua;
+     letter-spacing: 10px;
+     text-transform: uppercase;
+     font-weight: bold;
+     opacity: 0.5;
+}
+
+.section {
+     padding: 50px 80px;
+     text-align: center;
+   }
+   .box-1,.box-2,.box-3,.box-4,.box-5 {
+     background-color:cornflowerblue;
+     color:coral;
+     font-size: 30px;
+     font-weight: bold;
+   }
+
+   .box-1,.box-2,.box-3,.box-4,.box-5 h2 {
+     text-align: center;
+     font=size: 35px;
+     color:gold;
+     font-weight: bold italic;
+     text-decoration: underline;
+     text-decoration-thickness: 3px;
+     text-decoration-color: green;
+     padding-bottom: 20px;
+     margin: 5px;
+     text-shadow: 0px, 2px, 0.5px, 0.5;
+
+   }
+
+   .box-1 .pr1 {
+    border: 2px solid white;
+    margin: 35px;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    color:floralwhite;    
+    border-radius: 10px;
+    letter-spacing: 3px;
+    background-color: #001f3f;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+
+   .box-1 .poi {
+    float: right;
+    padding-top: 7px;
+    font-size: 15px;
+    text-decoration: underline;
+    color:#7FDBFF;
+    text-transform: capitalize;
+   }
+
+   .box-3 .tr{
+    font-size: 12px;
+    font-weight: bold;
+    color:black;
+    border:2px solid gold;
+   }
+   /* .box-3.tr b{
+    color:gold;
+    font-size: 15px;
+    font-weight: bold;
+   } */
+
+   .box-1,.box-2,.box-3,.box-4,.box-5 .pr2 {
+     text-align: justify;
+     color: whitesmoke;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-size: 25px;
+     letter-spacing: 3px;
+   }
